@@ -1,0 +1,11 @@
+name=LX A-Life Split-Screen Fix
+id=LX_ALifeSplit
+author=litoxperaloca
+description=Makes Project A-Life work in split-screen (2-4 local players). NPC AI sees, detects and attacks EVERY player instead of only player 1. Encounters, raids, world events and base heat happen around any player. Player 2's emotes (surrender, wave, stand down) count as their own. The talk window opens in the speaking player's half of the screen, falling back to the classic layout when the cinematic one does not fit. The Reputation tab no longer traps the controller and stops showing false reputation-change popups. NPC aim resets when it switches target between players. Adds no files inside A-Life's folders - it only hooks functions at load time, and any hook that no longer fits is skipped with a note in console.txt while A-Life keeps working. Must load AFTER Project A-Life.
+modversion=1.1.0
+versionMin=42.21
+poster=poster.png
+icon=icon.png
+url=https://github.com/litoxperaloca/LX_ALifeSplit
+require=\ProjectALifeNPCs
+loadModAfter=\ProjectALifeNPCs,\ALifeKnoxFractured
