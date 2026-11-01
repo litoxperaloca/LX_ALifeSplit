@@ -1,5 +1,5 @@
 version=1
-id=
+id=3831310959
 title=LX A-Life Split-Screen Fix
 description=[h1]LX A-Life Split-Screen Fix[/h1]
 description=[i]Project A-Life NPCs that see all of you[/i]
